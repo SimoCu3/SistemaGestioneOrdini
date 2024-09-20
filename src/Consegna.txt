@@ -1,0 +1,31 @@
+Esercizio: Sistema di Gestione Ordini con Lambda e Stream
+
+Descrizione:
+Crea un sistema di gestione degli ordini per un e-commerce utilizzando le collezioni Java
+e le Stream API per filtrare, ordinare e gestire i dati.
+Ogni ordine sarà rappresentato da una classe che contiene dettagli come il nome del cliente,
+il prodotto ordinato e la quantità. Dovrai implementare delle funzionalità per:
+
+Aggiungere nuovi ordini.
+Filtrare gli ordini per prodotto.
+Calcolare il totale delle vendite di un determinato prodotto.
+Ordinare gli ordini in base alla quantità in modo decrescente.
+Visualizzare la lista dei clienti che hanno ordinato un determinato prodotto.
+Specifiche:
+
+Classe Order:
+
+Cliente: String
+Prodotto: String
+Quantità: int
+Prezzo per unità: double
+
+
+Funzionalità richieste:
+
+//Aggiungere un ordine alla lista di ordini.
+//Mostrare tutti gli ordini.
+//Filtrare gli ordini per prodotto.
+//Calcolare il totale delle vendite per un prodotto specifico.
+//Ordinare gli ordini per quantità in ordine decrescente.
+//Elencare tutti i clienti che hanno ordinato un determinato prodotto.
